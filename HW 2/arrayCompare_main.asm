@@ -4,9 +4,9 @@
 
 # Data Section
 .data
-array1: .word -1,2,0,88
-array2: .word -1,2,0,88
-len: .word 4
+array1: .word 1, 2, 3, 4, 5, 6, 7
+array2: .word -7, -6, -5, -4, -3, -2, -1
+len: .word 7
 
 strLabel1: .asciiz "Function returned: "
 endline: .asciiz "\n"

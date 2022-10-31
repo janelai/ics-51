@@ -1,22 +1,31 @@
-.include "hw2_netid.asm"
+.include "hw2_laije.asm"
 
 .globl main
 
 # Data Section
 .data
-array: .word  str_abc, str_hello, str_b, str_foo, str_boo 
-len: .word 5
-c: .byte 'o'
+#array: .word  str_abc, str_hello, str_b, str_foo, str_boo 
+#len: .word 5
+#c: .byte 'o'
+
+array: .word  str_1, str_2, str_3
+len: .word 3
+c: .byte 'A'
 
 strLabel1: .asciiz "Function returned: ("
 comma: .asciiz ", "
 paren: .asciiz ")\n"
 
-str_foo: .asciiz "FOO"
-str_hello: .asciiz "HeLLO!"
-str_abc: .asciiz "Abc"
-str_b: .asciiz "b"
-str_boo: .asciiz "Boo"
+#str_foo: .asciiz "FOO"
+#str_hello: .asciiz "HeLLO!"
+#str_abc: .asciiz "Abc"
+#str_b: .asciiz "b"
+#str_boo: .asciiz "Boo"
+
+str_1: .asciiz "AAA"
+str_2: .asciiz "a"
+str_3: .asciiz "Jane"
+
 
 # Program 
 .text

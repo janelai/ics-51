@@ -1,9 +1,9 @@
-.include "hw2_netid.asm"   # change netid
+.include "hw2_laije.asm"   # change netid
 
 .globl main
 
 .data
-myStr: .asciiz "EbB"
+myStr: .asciiz "????"
 src_str: .asciiz "str: "
 function_str: .asciiz "Function Returns: "
 end_str: .asciiz "\n"
