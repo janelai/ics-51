@@ -1,9 +1,9 @@
-.include "lab3_A_netid.asm"
+.include "lab3_A_laije.asm"
 .include "lab3_functions.asm"
 
 .data 
-str: .asciiz "Pacman loses wah-wah :("   # Lose on '-'
-ghost_str: .asciiz "boo-boo"
+str: .asciiz "HeLLO!"   # Lose on '-'
+ghost_str: .asciiz "Spooky"
 pellet_str: .asciiz "m:"
 
 num_ghosts: .asciiz "NumGhostsEaten: "
@@ -14,10 +14,10 @@ newline: .asciiz "\n"
 .globl main
 .text
 main:
-    la $a0, str
+    	la $a0, str
 	la $a1, ghost_str
 	la $a2, pellet_str
-	li $a3, 0
+	li $a3, 1
 	jal pacmanEatsString
 
 	move $t9, $v0
