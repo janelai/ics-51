@@ -4,10 +4,8 @@
 
 # Data Section
 .data
-#str1: .asciiz "ICS51 Rules!!!"
-#str2: .asciiz "ics51 rules!!!"
-str1: .asciiz "0!!!"
-str2: .asciiz "01!0"
+str1: .asciiz "ICS51 Rules!!!"
+str2: .asciiz "ics51 rules!!!"
 strLabel1: .asciiz " hammingDistance("
 comma: .asciiz ", "
 strLabel2: .asciiz ") returned "
